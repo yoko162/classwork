@@ -1,0 +1,35 @@
+import arcade                                                                                      
+                                                                                                   
+                                                                                                   
+WIDTH = 640                                                                                        
+HEIGHT = 480                                                                                       
+                                                                                                   
+arcade.open_window(WIDTH, HEIGHT, "My Drawing")                                                    
+arcade.set_background_color(arcade.color.SKY_BLUE)                                                 
+                                                                                                   
+arcade.start_render()                                                                              
+# Begin drawing                                                                                    
+#grass                                                                                             
+arcade.draw_rectangle_filled(320, 30, 640, 100, arcade.color.GREEN)                                
+                                                                                                   
+#sun                                                                                               
+arcade.draw_circle_filled(540, 380, 50, arcade.color.YELLOW)                                       
+                                                                                                   
+#tree 1                                                                                            
+arcade.draw_rectangle_filled(200, 87.5, 20, 75, arcade.color.DARK_BROWN)                           
+arcade.draw_triangle_filled(160, 105, 240, 105, 200, 180, arcade.color.DARK_GREEN)                 
+                                                                                                   
+#tree 2                                                                                            
+arcade.draw_rectangle_filled(450, 87.5, 20, 75, arcade.color.DARK_BROWN)                           
+arcade.draw_triangle_filled(410, 105, 490, 105, 450, 180, arcade.color.DARK_GREEN)                 
+                                                                                                   
+#tree 3                                                                                            
+arcade.draw_rectangle_filled(525, 87.5, 20, 75, arcade.color.DARK_BROWN)                           
+arcade.draw_triangle_filled(485, 105, 565, 105, 525, 180, arcade.color.DARK_GREEN)                 
+                                                                                                   
+                                                                                                   
+                                                                                                   
+                                                                                                   
+# End drawing                                                                                      
+arcade.finish_render()                                                                             
+arcade.run()                                                                                       
