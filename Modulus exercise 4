@@ -1,0 +1,4 @@
+total_cents = float(input("cents: "))
+dollars = total_cents // 100
+cents = total_cents % 100
+print("you have {} dollar(s) and {} cent(s)".format(dollars, cents))
