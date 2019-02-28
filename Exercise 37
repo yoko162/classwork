@@ -1,0 +1,28 @@
+number_of_sides = (input())
+
+if number_of_sides == "3":
+  print("this shape is a triangle")
+
+elif number_of_sides == "4":
+  print("this shape is a rectangle")
+
+elif number_of_sides == "5":
+  print("this shape is a pentagon")
+
+elif number_of_sides == "6":
+  print("this shape is a hexagon")
+
+elif number_of_sides == "7":
+  print("this shape is a heptagon")
+
+elif number_of_sides == "8":
+  print("this shape is a octagon")
+
+elif number_of_sides == "9":
+  print("this shape is a nonagon")
+
+elif number_of_sides == "10":
+  print("this shape is a decagon")
+
+else:
+  print("Error. this shape can not be identified")
