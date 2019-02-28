@@ -1,0 +1,8 @@
+cents = 1206
+toonie = cents // 2
+loonie = cents // 1
+quarter = cents // 25
+dime = cents // 10
+nickle = cents // 5
+penny = cents //1
+print("1206 cents is: toonies - {}, loonies - {}, quarters - {}, dimes - {}, nickles - {}, pennies - {}".format(toonie, loonie, quarter, dime, nickle, penny))
