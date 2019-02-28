@@ -1,0 +1,7 @@
+human_years = float(input())
+if human_years <= 2 and human_years > 0:
+  print("dog years:{}".format(human_years * 10.5))
+if human_years > 2:
+  print("dog years:{}".format(((human_years - 2) * 4) + 21))
+if human_years < 0:
+  print("Error. A negative number cannot be converted")
