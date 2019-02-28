@@ -1,0 +1,4 @@
+total_minutes = float(input("minutes: "))
+hours = total_minutes // 60
+minutes = total_minutes % 60
+print("the total is {} hour and {} minutes".format(hours,minutes))
