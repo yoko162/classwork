@@ -1,0 +1,17 @@
+letter = (input())
+if letter == "a":
+  print("this letter is a vowel")
+elif letter == "a":
+  print("this letter is a vowel")
+elif letter == "e":
+  print("this letter is a vowel")
+elif letter == "i":
+  print("this letter is a vowel")
+elif letter == "o":
+  print("this letter is a vowel")
+elif letter == "u":
+  print("this letter is a vowel")
+elif letter == "y":
+  print("sometimes y is a vowel, sometimes y is a consonant")
+else:
+  print("this letter is a consonant")
