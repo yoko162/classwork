@@ -1,0 +1,3 @@
+student_id = 35
+group = 35 % 5
+print("student id = {}, you are in group {}".format(student_id, group))
